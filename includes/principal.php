@@ -14,7 +14,7 @@ $resultados = '';
   }
 
   $resultados = strlen($resultados) ? $resultados : '<tr>
-                                                      <td colspan="6" class="text-center">
+                                                      <td colspan="7" class="text-center">
                                                         Nenhum participante encontrado...
                                                       </td>
                                                     </tr>';
