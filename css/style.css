@@ -209,3 +209,66 @@ body {
         margin-top: 0.5rem;
     }
 }
+
+table td{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+}
+
+table tr{
+    border: 1px solid;
+}
+
+.image-logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.image-logo img {
+    width: 10rem;
+}
+
+.lista-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #cf2e2e;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+}
+
+.back-button button {
+    border: none;
+    background-color: #cf2e2e;
+    width: 200px;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button button:hover {
+    background-color: #ff0707;
+}
+
+.back-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}

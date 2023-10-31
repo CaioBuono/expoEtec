@@ -50,8 +50,8 @@
                     </div>
 
                     <div class="gender-input">
-                        <input type="radio" id="others" name="gender" value="Outros">
-                        <label for="others">Outros</label>
+                        <input type="radio" id="outros" name="gender" value="Outros">
+                        <label for="outros">Outros</label>
                     </div>
 
                     <div class="gender-input">
