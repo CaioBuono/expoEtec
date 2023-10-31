@@ -1,0 +1,9 @@
+{
+    "name": "apple/expotec",
+    "autoload": {
+        "psr-4": {
+            "Apple\\Expotec\\": "src/"
+        }
+    },
+    "require": {}
+}
